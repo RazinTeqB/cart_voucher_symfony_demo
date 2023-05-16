@@ -1,13 +1,13 @@
-## Floraqueen Backend Developer Test
+# Floraqueen Backend Developer Test
 
-### Prerequisites
+## Prerequisites
 
 - PHP >=8.1
 - Composer
 - [Symfony cli](https://symfony.com/download) to start server.
   - Alternatively can also use php in-built server.
 
-### Installation Steps
+## Installation Steps
 
 1. Install dependencies
 
@@ -60,7 +60,7 @@
 ## Possible error while loading fixture: no active transaction found 
 try commenting/uncommenting [$db->beginTransaction(); at last](src/DataFixtures/AppFixtures.php#L58)
 
-Example Outputs:
+## Example Outputs:
 
 1. Example 1
 
