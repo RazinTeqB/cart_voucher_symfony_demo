@@ -1,4 +1,4 @@
-# Floraqueen Backend Developer Test
+# Symfony Backend Developer Test
 
 ## Prerequisites
 
@@ -20,7 +20,7 @@
 - DATABASE_URL="mysql://<USERNAME>:<PASSWORD>@127.0.0.1:3306/<DB_NAME>?serverVersion=8&charset=utf8mb4"
 
   ```bash
-  DATABASE_URL="mysql://root:1234@127.0.0.1:3306/floraqueen_demo?serverVersion=8&charset=utf8mb4"
+  DATABASE_URL="mysql://root:1234@127.0.0.1:3306/example_demo?serverVersion=8&charset=utf8mb4"
   ```
 
 3. Create tables in db
@@ -64,9 +64,9 @@ try commenting/uncommenting [$db->beginTransaction(); at last](src/DataFixtures/
 
 1. Example 1
 
-    ![Alt text](public/images/Floraqueen-Backend-Developer-Test-1.png)
+    ![Alt text](public/images/Backend-Developer-Test-1.png)
 
 2. Example 2
 
-    ![Alt text](public/images/Floraqueen-Backend-Developer-Test-2.png)
+    ![Alt text](public/images/Backend-Developer-Test-2.png)
 
